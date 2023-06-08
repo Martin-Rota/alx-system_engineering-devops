@@ -1,2 +1,4 @@
 #!/bin/bash
-current_directory=$(pwd)
+current_directory=$(realpath "$PWD")
+echo "$current_directory"
+
