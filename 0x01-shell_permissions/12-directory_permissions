@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir my_dir & (chmod 751 my_dir)
+(mkdir my_dir & chmod 751 my_dir & sleep 1 & stat -c "%A" my_dir)
