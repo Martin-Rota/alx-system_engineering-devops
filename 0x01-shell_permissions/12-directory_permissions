@@ -1,2 +1,2 @@
 #!/bin/bash
-(mkdir my_dir; chmod 751 my_dir) > /dev/null; stat -c "%A" my_dir
+mkdir --mode=751 ./my_dir
