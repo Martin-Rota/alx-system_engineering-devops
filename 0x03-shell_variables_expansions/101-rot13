@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$TEXT" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+echo "$GRKG" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
