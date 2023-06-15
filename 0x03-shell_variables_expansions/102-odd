@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n '1~2p' "$INPUT"
+grep -n '' "$INPUT" | grep -E '^[[:digit:]]*[02468]:'
